@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "988587154583",
+    "project_id": "onlinechatapp-68c56",
+    "storage_bucket": "onlinechatapp-68c56.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:988587154583:android:932cc28444bec3903b1dd2",
+        "android_client_info": {
+          "package_name": "com.thiPNA219166.onlinechatapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKY4zgaWv_7lqwaGgAibpCryJUMLEPcK0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

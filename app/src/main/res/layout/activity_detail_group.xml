@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.DetailGroupActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        >
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/tv_group_name"
+        android:text="@string/name_group"
+        android:layout_below="@id/toolbar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginVertical="20dp"
+        style="@style/mytextview"/>
+
+    <TextView
+        android:id="@+id/tv_leader"
+        style="@style/mytextview"
+        android:layout_below="@id/tv_group_name"
+        android:layout_marginVertical="5dp"
+        android:layout_marginHorizontal="20dp"
+        android:text="@string/leader"
+        android:textStyle="italic"
+        />
+    <TextView
+        android:id="@+id/tv_leader_name"
+        style="@style/mytextview"
+        android:layout_toEndOf="@id/tv_leader"
+        android:layout_below="@id/tv_group_name"
+        android:layout_alignParentEnd="true"
+        android:layout_marginVertical="5dp"
+        android:layout_marginEnd="20dp"
+        android:textStyle="italic"
+        />
+
+
+    <TextView
+        android:id="@+id/tv_list_member"
+        style="@style/mytextview"
+        android:layout_below="@id/tv_leader"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="10dp"
+        android:text="@string/list_member"
+        android:textStyle="italic"
+       />
+    <TextView
+        android:id="@+id/tv_sum_member"
+        style="@style/mytextview"
+        android:layout_below="@id/tv_leader"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@id/tv_list_member"
+        android:layout_marginVertical="10dp"
+        android:textStyle="italic"
+        android:layout_marginEnd="20dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview_member"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tv_list_member"
+        android:layout_above="@id/btn_delete_group"
+        android:layout_marginHorizontal="20dp"/>
+    <Button
+        android:id="@+id/btn_leave_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/mybutton"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:text="@string/leave_group"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/btn_delete_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/mybutton"
+        android:layout_above="@id/btn_add_member"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="@string/delete_group"
+        android:visibility="gone"
+       />
+
+    <Button
+        android:id="@+id/btn_add_member"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/mybutton"
+        android:layout_above="@id/btn_leave_group"
+        android:layout_centerHorizontal="true"
+        android:text="@string/add_member"
+        android:visibility="gone"
+        />
+
+    <ProgressBar
+        android:id="@+id/loadingbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+
+
+</RelativeLayout>

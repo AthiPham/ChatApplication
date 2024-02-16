@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">OnlineChatApp</string>
+
+
+    <string name="image">Hình ảnh</string>
+    <string name="edittext_name_user">Nhập tên người dùng</string>
+    <string name="edittext_password">Nhập mật khẩu</string>
+    <string name="edittext_password2">Nhập lại mật khẩu</string>
+    <string name="login">Đăng nhập</string>
+    <string name="change_login_to_register">Bạn chưa có tài khoản? Đăng ký</string>
+    <string name="register">Đăng ký</string>
+    <string name="logout">Đăng xuất</string>
+
+    <string name="title_messages">Hội thoại</string>
+    <string name="title_users">Bạn bè</string>
+    <string name="title_groups">Nhóm</string>
+    <string name="title_user">Cá nhân</string>
+    <string name="hint_search">Tìm kiếm người dùng</string>
+
+    <string name="request_friends">Lời mời kết bạn</string>
+    <string name="add_friend">Kết bạn</string>
+    <string name="accept">Chấp nhận</string>
+    <string name="deny">Từ chối</string>
+    <string name="sent">Đã gửi</string>
+    <string name="received">Đã nhận</string>
+    <string name="accepted">Đã được chấp nhận</string>
+
+
+    <string name="name_user">Tên người dùng</string>
+    <string name="name_group">Tên nhóm</string>
+    <string name="message_content">Tin nhắn</string>
+    <string name="date">01/10</string>
+    <string name="time">08:00</string>
+
+    <string name="add_group">Tạo nhóm</string>
+    <string name="edittext_name_group">Nhập tên nhóm</string>
+    <string name="chose_member">Chọn thành viên:</string>
+    <string name="choose_new_member">Chọn thành viên mới:</string>
+    <string name="min_member">1</string>
+    <string name="list_member">Danh sách các thành viên:</string>
+    <string name="leader">Nhóm trưởng:</string>
+    <string name="add_member">Thêm thành viên</string>
+    <string name="leave_group">Rời nhóm</string>
+    <string name="delete_group">Xóa nhóm</string>
+    <string name="group_menu">Menu group</string>
+    <string name="title_group_detail">Thông tin chi tiết nhóm</string>
+    <string name="chose_leader">Chọn nhóm trưởng mới</string>
+
+
+
+</resources>
